@@ -1,0 +1,21 @@
+id = "roof_tiles"
+version = "1.1"
+author = "Phillip Edwards (Eddy)"
+author_url = "https://github.com/eddy-99"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo"
+download = "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/8bad2952c0fd896232d1f4d2f1803508b2aa19eb/plugins/3D_Eddys/ed3d_roof_tiles.py"
+sha256 = "2f358ab7adfba0c5073b08117ceba97930d5bb387a26f242fbc1d8b4e751bf66"
+ingetrazo = "0.5.11"
+tags = ["architecture", "fabrication"]
+screenshot = "roof_tiles.webp"
+
+[name]
+es = "Tejas 3D"
+en = "3D Roof Tiles"
+pt = "Telhas 3D"
+
+[summary]
+es = "Cubre un faldón con tejas planas, pizarras o tejas con forma, solapadas o planas para imprimir, con cumbrera y remates. Cada faldón en su propio grupo."
+en = "Covers a roof face with plain tiles, slates, shaped or profiled tiles, overlapping or flat for printing, with ridge tiles and finials. Each slope in its own group."
+pt = "Cobre uma água do telhado com telhas planas, ardósias ou telhas perfiladas, sobrepostas ou planas para impressão, com cumeeira e remates."

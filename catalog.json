@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-10-31T23:45Z",
+ "generated": "2026-11-03T03:13Z",
  "tags": [
   "analysis",
   "architecture",
@@ -325,6 +325,33 @@
    "updated_at": "2026-10-16T19:37Z"
   },
   {
+   "id": "plugins_toolbar",
+   "version": "1.1",
+   "author": "Phillip Edwards (Eddy)",
+   "author_url": "https://github.com/eddy-99",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo",
+   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/8bad2952c0fd896232d1f4d2f1803508b2aa19eb/plugins/3D_Eddys/ed3d_plugins_toolbar.py",
+   "sha256": "33f5d20915c3068a1d7898bd851fec75c60a7b83fd09cc6f1322c146a087654f",
+   "ingetrazo": "0.5.11",
+   "tags": [
+    "productivity"
+   ],
+   "name": {
+    "es": "Barra de complementos 3D",
+    "en": "3D Plugins Toolbar",
+    "pt": "Barra de extensões 3D"
+   },
+   "summary": {
+    "es": "Una barra con un botón para cada complemento 3D de Eddy, y un submenú «3D Plugins by Eddy» en Extensiones.",
+    "en": "A toolbar with a button for each of Eddy's 3D plugins, and a '3D Plugins by Eddy' submenu under Extensions.",
+    "pt": "Uma barra com um botão para cada extensão 3D do Eddy, e um submenu «3D Plugins by Eddy» em Extensões."
+   },
+   "reviewed": false,
+   "added_at": "2026-11-01T14:54Z",
+   "updated_at": "2026-11-01T17:27Z"
+  },
+  {
    "id": "organize_toolbar",
    "version": "1.2",
    "author": "seghier",
@@ -390,6 +417,148 @@
    "updated_at": "2026-10-08T15:41Z"
   },
   {
+   "id": "blackfox_3d_inspector",
+   "version": "1.0.0",
+   "author": "David Mavrov",
+   "author_url": "https://github.com/davidsmavrov-debug",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/davidsmavrov-debug/BlackFox-CAD",
+   "download": "https://raw.githubusercontent.com/davidsmavrov-debug/BlackFox-CAD/inspector-v1.0.0/IngeTrazo%20Extensions/3D%20Inspector/BlackFox_3D_Inspector_v1_0_0.py",
+   "sha256": "4ab9473a32e881a257178128b1f19c8fa3ae5ef7821226c04f10a56ce6d13513",
+   "ingetrazo": "0.5.11",
+   "tags": [
+    "analysis",
+    "productivity",
+    "education"
+   ],
+   "name": {
+    "en": "BlackFox 3D Inspector",
+    "es": "BlackFox 3D Inspector",
+    "pt": "BlackFox 3D Inspector"
+   },
+   "summary": {
+    "en": "Read-only diagnostic extension for inspecting IngeTrazo geometry, topology, layers, materials, annotations, survey points and internal APIs.",
+    "es": "Extensión de diagnóstico de solo lectura para inspeccionar geometría, topología, capas, materiales, anotaciones, puntos topográficos y APIs internas de IngeTrazo.",
+    "pt": "Extensão de diagnóstico somente leitura para inspecionar geometria, topologia, camadas, materiais, anotações, pontos topográficos e APIs internas do IngeTrazo."
+   },
+   "reviewed": false,
+   "added_at": "2026-11-01T15:28Z",
+   "updated_at": "2026-11-01T15:28Z"
+  },
+  {
+   "id": "blackfox_cad_exporter",
+   "version": "1.0.0",
+   "author": "David Mavrov",
+   "author_url": "https://github.com/davidsmavrov-debug",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/davidsmavrov-debug/BlackFox-CAD",
+   "download": "https://raw.githubusercontent.com/davidsmavrov-debug/BlackFox-CAD/exporter-v1.0.0/IngeTrazo%20Extensions/3D%20DXF%20Exporter/BlackFox_CAD_Exporter_v1_0_0.py",
+   "sha256": "cf08e2109e064c3cdd2eca697ef6207af54b9b0f8351b9cce62ca9bb5e4e8386",
+   "ingetrazo": "0.5.11",
+   "tags": [
+    "import-export",
+    "architecture",
+    "structures"
+   ],
+   "name": {
+    "en": "BlackFox CAD Exporter",
+    "es": "BlackFox CAD Exporter",
+    "pt": "BlackFox CAD Exporter"
+   },
+   "summary": {
+    "en": "Export 3D geometry from IngeTrazo to DXF or DWG, preserving supported layers, groups, and components. DWG conversion uses an automatically downloaded converter.",
+    "es": "Exporta geometría 3D de IngeTrazo a DXF o DWG, conservando capas, grupos y componentes compatibles. Descarga automáticamente el conversor DWG.",
+    "pt": "Exporta geometria 3D do IngeTrazo para DXF ou DWG, preservando camadas, grupos e componentes compatíveis. Baixa automaticamente o conversor DWG."
+   },
+   "reviewed": false,
+   "added_at": "2026-11-01T15:28Z",
+   "updated_at": "2026-11-01T15:28Z"
+  },
+  {
+   "id": "blackfox_catenary",
+   "version": "1.0.0",
+   "author": "David Mavrov",
+   "author_url": "https://github.com/davidsmavrov-debug",
+   "license": "MIT",
+   "repository": "https://github.com/davidsmavrov-debug/BlackFox-CAD",
+   "download": "https://raw.githubusercontent.com/davidsmavrov-debug/BlackFox-CAD/catenary-v1.0.0/IngeTrazo%20Extensions/Catenary/BlackFox_Catenary_v1_0_0.py",
+   "sha256": "ebf18d0d2d4c42c823a7cb0ec55f19295d0ccc8f145914ffac1e85a7af43ef7b",
+   "ingetrazo": "0.5.11",
+   "tags": [
+    "structures",
+    "drawing",
+    "education"
+   ],
+   "name": {
+    "en": "BlackFox Catenary",
+    "es": "BlackFox Catenaria",
+    "pt": "BlackFox Catenária"
+   },
+   "summary": {
+    "en": "Generate mathematically accurate 3D catenary curves from selected endpoints or precise XYZ coordinates and cable length.",
+    "es": "Genera curvas catenarias 3D matemáticamente precisas a partir de puntos seleccionados o coordenadas XYZ y longitud del cable.",
+    "pt": "Gera curvas catenárias 3D matematicamente precisas a partir de pontos selecionados ou coordenadas XYZ e comprimento do cabo."
+   },
+   "reviewed": false,
+   "added_at": "2026-11-01T15:28Z",
+   "updated_at": "2026-11-01T15:28Z"
+  },
+  {
+   "id": "notepad",
+   "version": "1.0",
+   "author": "Phillip Edwards (Eddy)",
+   "author_url": "https://github.com/eddy-99",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo",
+   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/v1.0/plugins/notepad.py",
+   "sha256": "28a5021bdc9105f35656f9c98f5925025266ce0ec6ef91a13cb2e075d993fad6",
+   "ingetrazo": "0.5.11",
+   "tags": [
+    "productivity"
+   ],
+   "name": {
+    "es": "Bloc de notas 3D",
+    "en": "3D Notepad",
+    "pt": "Bloco de notas 3D"
+   },
+   "summary": {
+    "es": "Un bloc de notas que queda en pantalla y se guarda solo, con un conversor de medidas reales a maqueta.",
+    "en": "A note pad that stays on screen and saves itself, with a real-to-model size converter.",
+    "pt": "Um bloco de notas que fica no ecrã e se guarda sozinho, com um conversor de medidas reais para maqueta."
+   },
+   "reviewed": false,
+   "added_at": "2026-11-01T14:54Z",
+   "updated_at": "2026-11-01T14:54Z"
+  },
+  {
+   "id": "centre_finder",
+   "version": "1.0",
+   "author": "Phillip Edwards (Eddy)",
+   "author_url": "https://github.com/eddy-99",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo",
+   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/8bad2952c0fd896232d1f4d2f1803508b2aa19eb/plugins/3D_Eddys/ed3d_centre_finder.py",
+   "sha256": "1bb57622dc54117df9a0f5e5e1e8d8a855cca0216ee2fb063cef3c39f36b448a",
+   "ingetrazo": "0.5.11",
+   "tags": [
+    "drawing",
+    "productivity"
+   ],
+   "name": {
+    "es": "Buscador de centros 3D",
+    "en": "3D Centre Finder",
+    "pt": "Localizador de centros 3D"
+   },
+   "summary": {
+    "es": "Encuentra el centro de una cara, una arista o un objeto: lo marca con un punto o líneas guía, muestra su tamaño y centra otro objeto sobre él.",
+    "en": "Finds the centre of a face, an edge or an object: marks it with a guide point or centre lines, shows its size, and moves another object onto it.",
+    "pt": "Encontra o centro de uma face, aresta ou objeto: marca-o com um ponto ou linhas guia, mostra o tamanho e centra outro objeto sobre ele."
+   },
+   "reviewed": false,
+   "added_at": "2026-11-01T17:48Z",
+   "updated_at": "2026-11-01T17:48Z"
+  },
+  {
    "id": "cad2ingetrazo",
    "version": "3.23.3",
    "author": "M. Tariq",
@@ -424,6 +593,34 @@
    "reviewed": false,
    "added_at": "2026-10-08T21:49Z",
    "updated_at": "2026-10-21T20:31Z"
+  },
+  {
+   "id": "gutters_downpipes",
+   "version": "1.0",
+   "author": "Phillip Edwards (Eddy)",
+   "author_url": "https://github.com/eddy-99",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo",
+   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/v1.0/plugins/gutters_downpipes.py",
+   "sha256": "703f12d1510f692b18887c972113169cf6907a7603250a1d6cc571279121d99a",
+   "ingetrazo": "0.5.11",
+   "tags": [
+    "architecture"
+   ],
+   "screenshot": "gutters_downpipes.webp",
+   "name": {
+    "es": "Canalones y bajantes 3D",
+    "en": "3D Gutters & Downpipes",
+    "pt": "Caleiras e tubos de queda 3D"
+   },
+   "summary": {
+    "es": "Canalones, bajantes y piezas que encajan entre sí, con preajustes.",
+    "en": "Gutters, downpipes and fittings that join onto each other, with presets.",
+    "pt": "Caleiras, tubos de queda e acessórios que encaixam entre si, com predefinições."
+   },
+   "reviewed": false,
+   "added_at": "2026-11-01T14:54Z",
+   "updated_at": "2026-11-01T14:54Z"
   },
   {
    "id": "chakkree_tools",
@@ -462,6 +659,64 @@
    "updated_at": "2026-10-21T20:30Z"
   },
   {
+   "id": "corrugated_iron",
+   "version": "1.0",
+   "author": "Phillip Edwards (Eddy)",
+   "author_url": "https://github.com/eddy-99",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo",
+   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/8bad2952c0fd896232d1f4d2f1803508b2aa19eb/plugins/3D_Eddys/ed3d_corrugated_iron.py",
+   "sha256": "17c9a40fbc0d1a93c05a077042335d00df415b2c208f06b1bbc60a246bfaab01",
+   "ingetrazo": "0.5.11",
+   "tags": [
+    "architecture",
+    "fabrication"
+   ],
+   "screenshot": "corrugated_iron.webp",
+   "name": {
+    "es": "Chapa ondulada 3D",
+    "en": "3D Corrugated Iron",
+    "pt": "Chapa ondulada 3D"
+   },
+   "summary": {
+    "es": "Cubre una cara con chapa ondulada, grecada o lisa, para imprimir o en láminas reales solapadas, con óxido y chapas sueltas, alrededor de los huecos.",
+    "en": "Covers a face with corrugated, box-profile or flat sheets, flat-backed for printing or real lapped sheets, with rust, missing and skew sheets, round any openings.",
+    "pt": "Cobre uma face com chapa ondulada, trapezoidal ou lisa, para impressão ou em folhas reais sobrepostas, com ferrugem e folhas soltas, à volta das aberturas."
+   },
+   "reviewed": false,
+   "added_at": "2026-11-01T17:47Z",
+   "updated_at": "2026-11-01T17:47Z"
+  },
+  {
+   "id": "chimneys",
+   "version": "1.0",
+   "author": "Phillip Edwards (Eddy)",
+   "author_url": "https://github.com/eddy-99",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo",
+   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/8bad2952c0fd896232d1f4d2f1803508b2aa19eb/plugins/3D_Eddys/ed3d_chimneys.py",
+   "sha256": "7f41f63b6362d61c2db7411a2be2cec422ecf3d9f1a62233f8a8d23fd2b12216",
+   "ingetrazo": "0.5.11",
+   "tags": [
+    "architecture",
+    "fabrication"
+   ],
+   "screenshot": "chimneys.webp",
+   "name": {
+    "es": "Chimeneas 3D",
+    "en": "3D Chimneys",
+    "pt": "Chaminés 3D"
+   },
+   "summary": {
+    "es": "Chimeneas de ladrillo cortadas a la pendiente del tejado, con remate, cumbrera de mortero y sombreretes; chimeneas industriales; ventiladores y veletas.",
+    "en": "Brick chimney stacks cut to the roof slope, with oversailing courses, flaunching and pots; industrial chimneys; chimney pots; roof ventilators and weather vanes.",
+    "pt": "Chaminés de tijolo cortadas à inclinação do telhado, com cornija, argamassa e potes; chaminés industriais; ventiladores e cata-ventos."
+   },
+   "reviewed": false,
+   "added_at": "2026-11-01T17:48Z",
+   "updated_at": "2026-11-01T17:48Z"
+  },
+  {
    "id": "lines_connect",
    "version": "1.3.0",
    "author": "Aymen Alhaddad",
@@ -488,6 +743,62 @@
    "reviewed": false,
    "added_at": "2026-10-25T01:06Z",
    "updated_at": "2026-10-25T01:06Z"
+  },
+  {
+   "id": "contexto",
+   "version": "0.3.3",
+   "author": "Victor Crespo",
+   "author_url": "https://github.com/vicc3d",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/vicc3d/contexto-ingetrazo",
+   "download": "https://github.com/vicc3d/contexto-ingetrazo/releases/download/v0.3.3/contexto-0.3.3.zip",
+   "sha256": "28c6f06f037993d865b9d404baa72f35766d6b22bc835fdf36d26958e0840ee3",
+   "ingetrazo": "0.5.11",
+   "tags": [
+    "architecture",
+    "terrain"
+   ],
+   "screenshot": "contexto.webp",
+   "name": {
+    "es": "Contexto",
+    "en": "Contexto",
+    "pt": "Contexto"
+   },
+   "summary": {
+    "es": "Trae la ciudad alrededor de tu proyecto desde OpenStreetMap: edificios con su altura (también por partes), calles, áreas verdes, agua, árboles y usos de suelo, en la ubicación de la pestaña Terreno.",
+    "en": "Brings the city around your project from OpenStreetMap: buildings at their height (parts included), streets, green areas, water, trees and land use, at the Terrain tab's location.",
+    "pt": "Traz a cidade ao redor do seu projeto a partir do OpenStreetMap: edifícios com sua altura (também por partes), ruas, áreas verdes, água, árvores e usos do solo, na localização da aba Terreno."
+   },
+   "reviewed": false,
+   "added_at": "2026-11-01T15:28Z",
+   "updated_at": "2026-11-01T15:28Z"
+  },
+  {
+   "id": "scale_converter",
+   "version": "1.1",
+   "author": "Phillip Edwards (Eddy)",
+   "author_url": "https://github.com/eddy-99",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo",
+   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/8bad2952c0fd896232d1f4d2f1803508b2aa19eb/plugins/3D_Eddys/ed3d_scale_converter.py",
+   "sha256": "3db0fb0d99d03cd23e91260f5589d22b3185a6050efa3be63ec8d92eec0450e2",
+   "ingetrazo": "0.5.11",
+   "tags": [
+    "productivity"
+   ],
+   "name": {
+    "es": "Conversor de escala 3D",
+    "en": "3D Scale Converter",
+    "pt": "Conversor de escala 3D"
+   },
+   "summary": {
+    "es": "Una barra que convierte medidas reales (pies, pulgadas, mm) en medidas de maqueta a cualquier escala.",
+    "en": "A toolbar that turns real sizes (ft / in / mm) into model sizes at any scale.",
+    "pt": "Uma barra que converte medidas reais (pés, polegadas, mm) em medidas de maqueta a qualquer escala."
+   },
+   "reviewed": false,
+   "added_at": "2026-11-01T14:54Z",
+   "updated_at": "2026-11-01T17:28Z"
   },
   {
    "id": "loop_cut",
@@ -578,13 +889,13 @@
   },
   {
    "id": "croquis",
-   "version": "0.14.0",
+   "version": "0.14.1",
    "author": "Victor Crespo",
    "author_url": "https://github.com/vicc3d",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/vicc3d/croquis-ingetrazo",
-   "download": "https://github.com/vicc3d/croquis-ingetrazo/releases/download/v0.14.0/croquis-0.14.0.zip",
-   "sha256": "d6d9727a4b88e5ad02cec56ba214921f4423c1cb01dace8f5e5babd4a585b02f",
+   "download": "https://github.com/vicc3d/croquis-ingetrazo/releases/download/v0.14.1/croquis-0.14.1.zip",
+   "sha256": "00fe906a8b8033464bcac153ba7e41018517cbfd70f8e55efe00b127e2c15e6a",
    "ingetrazo": "0.5.9",
    "tags": [
     "drawing",
@@ -604,7 +915,7 @@
    },
    "reviewed": false,
    "added_at": "2026-10-21T20:30Z",
-   "updated_at": "2026-10-21T20:30Z"
+   "updated_at": "2026-11-03T03:13Z"
   },
   {
    "id": "quadrify_tool",
@@ -719,13 +1030,13 @@
   },
   {
    "id": "node_editor",
-   "version": "1.7.6",
+   "version": "1.7.8",
    "author": "seghier",
    "author_url": "https://github.com/seghier",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/seghier/IngeTrazoNodeEditor",
-   "download": "https://github.com/seghier/IngeTrazoNodeEditor/releases/download/v1.7.6/node_editor.zip",
-   "sha256": "645b759a065b22310bbbcdf1332be6e1bcd72044b7cc780455381e82aa0b54e3",
+   "download": "https://github.com/seghier/IngeTrazoNodeEditor/releases/download/v1.7.8/node_editor.zip",
+   "sha256": "11b29b188a57041a4780c5c802035bdbd68c20a7036a70370d7295b55f5e2fd5",
    "ingetrazo": "0.5.7",
    "tags": [
     "productivity",
@@ -744,7 +1055,63 @@
    },
    "reviewed": false,
    "added_at": "2026-10-04T22:30Z",
-   "updated_at": "2026-10-29T20:40Z"
+   "updated_at": "2026-11-01T18:43Z"
+  },
+  {
+   "id": "wrap",
+   "version": "1.1",
+   "author": "Phillip Edwards (Eddy)",
+   "author_url": "https://github.com/eddy-99",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo",
+   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/8bad2952c0fd896232d1f4d2f1803508b2aa19eb/plugins/3D_Eddys/ed3d_wrap.py",
+   "sha256": "a266739052cc2f778b36f114eb15487c63288d1bb25a6733f23b387d2dbc8621",
+   "ingetrazo": "0.5.11",
+   "tags": [
+    "architecture",
+    "fabrication"
+   ],
+   "screenshot": "wrap.webp",
+   "name": {
+    "es": "Envolver 3D",
+    "en": "3D Wrap",
+    "pt": "Envolver 3D"
+   },
+   "summary": {
+    "es": "Coloca ladrillos hilada a hilada alrededor de chimeneas redondas, cuadradas, cónicas o dibujadas (sin junta, esquinas trabadas), o curva un patrón plano sobre un sólido.",
+    "en": "Lays bricks course by course around round, square, tapered or drawn chimneys (no seam, bonded corners), or bends any flat pattern round a solid.",
+    "pt": "Assenta tijolos fiada a fiada à volta de chaminés redondas, quadradas, cónicas ou desenhadas (sem junta, cantos travados), ou curva um padrão plano sobre um sólido."
+   },
+   "reviewed": false,
+   "added_at": "2026-11-01T14:54Z",
+   "updated_at": "2026-11-01T17:29Z"
+  },
+  {
+   "id": "print_scaler",
+   "version": "1.1",
+   "author": "Phillip Edwards (Eddy)",
+   "author_url": "https://github.com/eddy-99",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo",
+   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/8bad2952c0fd896232d1f4d2f1803508b2aa19eb/plugins/3D_Eddys/ed3d_print_scaler.py",
+   "sha256": "806174883a0df75168b66b5655ae3ae49ba7c8e46b75c8e52d9e8c540efdb947",
+   "ingetrazo": "0.5.11",
+   "tags": [
+    "fabrication"
+   ],
+   "name": {
+    "es": "Escalador para impresión 3D",
+    "en": "3D Print Scaler",
+    "pt": "Escalador para impressão 3D"
+   },
+   "summary": {
+    "es": "Escala el objeto elegido a una escala (1:50, 1:100...) para imprimir en 3D y comprueba que cabe en la cama.",
+    "en": "Scales the selected object to a chosen scale (1:50, 1:100 ...) for 3D printing and checks it fits your print bed.",
+    "pt": "Escala o objeto escolhido para uma escala (1:50, 1:100...) para impressão 3D e verifica se cabe na mesa."
+   },
+   "reviewed": false,
+   "added_at": "2026-11-01T14:54Z",
+   "updated_at": "2026-11-01T17:46Z"
   },
   {
    "id": "igz_tb_scenes",
@@ -774,6 +1141,35 @@
    "reviewed": false,
    "added_at": "2026-10-08T21:49Z",
    "updated_at": "2026-10-08T21:49Z"
+  },
+  {
+   "id": "brick_block_studio",
+   "version": "1.0",
+   "author": "Phillip Edwards (Eddy)",
+   "author_url": "https://github.com/eddy-99",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo",
+   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/v1.0/plugins/brick_block_studio.py",
+   "sha256": "58fcf433c4cf481a009d1052ae114416411fc6e5d407d7fe6f50e7610968392e",
+   "ingetrazo": "0.5.11",
+   "tags": [
+    "architecture",
+    "fabrication"
+   ],
+   "screenshot": "brick_block_studio.webp",
+   "name": {
+    "es": "Estudio de ladrillos y bloques 3D",
+    "en": "3D Brick & Block Studio",
+    "pt": "Estúdio de tijolos e blocos 3D"
+   },
+   "summary": {
+    "es": "Ladrillo y bloque en 3D sobre una cara: aparejos, desfases, hiladas a tizón y a sardinel, envejecido, preajustes y cortes exactos en huecos. Sólidos cerrados para imprimir.",
+    "en": "3D brick and block work on a wall face: bonds, row offsets, header and soldier courses, weathering, presets and exact cuts round openings. Closed solids ready to print.",
+    "pt": "Alvenaria 3D de tijolo e bloco numa face: aparelhos, desfasamentos, fiadas, envelhecimento, predefinições e cortes exatos nas aberturas. Sólidos fechados para impressão."
+   },
+   "reviewed": false,
+   "added_at": "2026-11-01T14:54Z",
+   "updated_at": "2026-11-01T14:54Z"
   },
   {
    "id": "igz_pdf3d",
@@ -809,6 +1205,35 @@
    "reviewed": false,
    "added_at": "2026-10-15T15:47Z",
    "updated_at": "2026-10-20T19:13Z"
+  },
+  {
+   "id": "ply3ds",
+   "version": "0.1.0",
+   "author": "Nicolas Marc",
+   "author_url": "https://github.com/nicolasmarc",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/nicolasmarc/ingetrazo-ply3ds",
+   "download": "https://github.com/nicolasmarc/ingetrazo-ply3ds/releases/download/v0.1.0/ply3ds-0.1.0.zip",
+   "sha256": "0b6bfaef7eb954b31ba779c82a68090e428e5af1955b597cb3822b3136ddab2c",
+   "ingetrazo": "0.5.10",
+   "tags": [
+    "import-export",
+    "analysis"
+   ],
+   "screenshot": "ply3ds.png",
+   "name": {
+    "en": "Export PLY / 3DS by material",
+    "es": "Exportar PLY / 3DS por material",
+    "pt": "Exportar PLY / 3DS por material"
+   },
+   "summary": {
+    "en": "Exports the visible model to PLY or 3DS with one surface group per material, for acoustic simulation tools such as I-Simpa (#102).",
+    "es": "Exporta el modelo visible a PLY o 3DS con un grupo de superficies por material, para programas de acústica como I-Simpa (#102).",
+    "pt": "Exporta o modelo visível para PLY ou 3DS com um grupo de superfícies por material, para programas de acústica como o I-Simpa (#102)."
+   },
+   "reviewed": false,
+   "added_at": "2026-11-01T16:04Z",
+   "updated_at": "2026-11-01T16:04Z"
   },
   {
    "id": "html_export",
@@ -878,32 +1303,62 @@
    "updated_at": "2026-10-26T05:39Z"
   },
   {
+   "id": "go_shx_stroke_text",
+   "version": "0.2.0",
+   "author": "GO Engineering",
+   "author_url": "https://github.com/buildsmart888",
+   "license": "MIT",
+   "repository": "https://github.com/buildsmart888/go-shx-stroke-text",
+   "download": "https://raw.githubusercontent.com/buildsmart888/go-shx-stroke-text/58df8c4fb2ede8ea3dc519df61873899db93dc74/dist/go_shx_stroke_text-v0.2.0.zip",
+   "sha256": "cad96dd4a95c9bbbbb5adc990ceafa835415e54f345d190986e80ad3de61fe1e",
+   "ingetrazo": "0.5.9",
+   "tags": [
+    "drawing",
+    "import-export",
+    "productivity"
+   ],
+   "screenshot": "go_shx_stroke_text.webp",
+   "name": {
+    "es": "GO SHX Stroke Text",
+    "en": "GO SHX Stroke Text",
+    "pt": "GO SHX Stroke Text"
+   },
+   "summary": {
+    "es": "Texto vectorial SHX/SHP real para el modelo y el compositor de planos. Edición, trazos tailandeses Unicode/CP874, vista previa y exportación DXF.",
+    "en": "Draw editable native SHX/SHP stroke text as model groups and vector lines on sheets, with Thai Unicode/CP874 mapping, glyph checks and DXF export.",
+    "pt": "Texto vetorial SHX/SHP editável no modelo e nas pranchas; mapeamento tailandês Unicode/CP874, verificação de glifos e exportação DXF."
+   },
+   "reviewed": false,
+   "added_at": "2026-11-01T15:28Z",
+   "updated_at": "2026-11-01T15:28Z"
+  },
+  {
    "id": "gumball",
-   "version": "1.3",
+   "version": "1.3.2",
    "author": "seghier",
    "author_url": "https://github.com/seghier",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/seghier/IngeTrazoGumball",
-   "download": "https://github.com/seghier/IngeTrazoGumball/releases/download/v1.3/gumball.zip",
-   "sha256": "5d8e8d03b7bc6346896d0565c10f89ab3e7cb2134b2d4cce3b2b6ce9b8659832",
+   "download": "https://github.com/seghier/IngeTrazoGumball/releases/download/v1.3.2/gumball.zip",
+   "sha256": "02c514283f6b6d641b250723ebf9c40ea5dfdc05a4103eb5bf68867890ac8b3c",
    "ingetrazo": "0.5.7",
    "tags": [
     "productivity",
     "drawing"
    ],
    "name": {
-    "en": "Gumball, NavOrbit & Split Views",
-    "es": "Gumball, NavOrbit y Vistas Divididas",
-    "pt": "Gumball, NavOrbit e Vistas Divididas"
+    "en": "Gumball & NavOrbit",
+    "es": "Gumball y NavOrbit",
+    "pt": "Gumball e NavOrbit"
    },
    "summary": {
-    "en": "Interactive 3D transform manipulator (translate, rotate, scale), 3D navigation orbit cube (NavOrbit) with camera presets, radial pie menu, and multi-viewport split views.",
-    "es": "Manipulador interactivo de transformación 3D (mover, rotar, escalar), cubo de navegación y órbita 3D (NavOrbit) con vistas predefinidas, menú radial y vistas divididas.",
-    "pt": "Manipulador interativo de transformação 3D (mover, rotacionar, escalar), cubo de navegação e órbita 3D (NavOrbit) com predefinições de câmera, menu radial e visualizações divididas."
+    "en": "Interactive 3D transform manipulator (translate, rotate, scale), 3D navigation orbit cube (NavOrbit) with camera presets, and radial pie menu.",
+    "es": "Manipulador interactivo de transformación 3D (mover, rotar, escalar), cubo de navegación y órbita 3D (NavOrbit) con vistas predefinidas y menú radial.",
+    "pt": "Manipulador interativo de transformação 3D (mover, rotacionar, escalar), cubo de navegação e órbita 3D (NavOrbit) com predefinições de câmera e menu radial."
    },
    "reviewed": false,
    "added_at": "2026-10-27T03:43Z",
-   "updated_at": "2026-10-31T11:13Z"
+   "updated_at": "2026-11-01T18:43Z"
   },
   {
    "id": "align_tool",
@@ -959,6 +1414,34 @@
    "reviewed": false,
    "added_at": "2026-10-25T01:06Z",
    "updated_at": "2026-10-25T01:06Z"
+  },
+  {
+   "id": "better_icons",
+   "version": "1.0",
+   "author": "Phillip Edwards (Eddy)",
+   "author_url": "https://github.com/eddy-99",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo",
+   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/8bad2952c0fd896232d1f4d2f1803508b2aa19eb/plugins/3D_Eddys/ed3d_better_icons.py",
+   "sha256": "9c9fd23ca94c646f63db4eb612a909c16f579afcdd1fa0b19939d53cf9272aaf",
+   "ingetrazo": "0.5.11",
+   "tags": [
+    "productivity"
+   ],
+   "screenshot": "better_icons.webp",
+   "name": {
+    "es": "Iconos mejores 3D",
+    "en": "3D Better Icons",
+    "pt": "Ícones melhores 3D"
+   },
+   "summary": {
+    "es": "Iconos más claros y en color para la barra de herramientas de IngeTrazo, con tamaño ajustable y nombres bajo los iconos.",
+    "en": "Clearer colour icons for IngeTrazo's own toolbar buttons, with adjustable icon size and optional names under the icons.",
+    "pt": "Ícones mais claros e a cores para a barra de ferramentas do IngeTrazo, com tamanho ajustável e nomes sob os ícones."
+   },
+   "reviewed": false,
+   "added_at": "2026-11-01T17:47Z",
+   "updated_at": "2026-11-01T17:47Z"
   },
   {
    "id": "custom_icons",
@@ -1113,6 +1596,36 @@
    "reviewed": false,
    "added_at": "2026-10-15T15:47Z",
    "updated_at": "2026-10-19T17:28Z"
+  },
+  {
+   "id": "print3d",
+   "version": "0.4.5",
+   "author": "Nicolas Marc",
+   "author_url": "https://github.com/nicolasmarc",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/nicolasmarc/ingetrazo-print3d",
+   "download": "https://github.com/nicolasmarc/ingetrazo-print3d/releases/download/v0.4.5/print3d-0.4.5.zip",
+   "sha256": "a4b570b71f854c572d4b4d4110abd580df5ba7c12f7ab986bd58d5a84cbcd569",
+   "ingetrazo": "0.5.11",
+   "tags": [
+    "fabrication",
+    "analysis",
+    "import-export"
+   ],
+   "screenshot": "print3d.png",
+   "name": {
+    "en": "3D Print",
+    "es": "Impresión 3D",
+    "pt": "Impressão 3D"
+   },
+   "summary": {
+    "en": "Gets a model ready for a 3D printer: overhangs, wall thickness, cavities, gaps, bed size, best orientation, hole repair, clean STL import, gyroid infill and 3MF/STL export at the print scale.",
+    "es": "Prepara un modelo para imprimir en 3D: voladizos, paredes, cavidades, holguras, tamaño en la cama, orientación óptima, reparar agujeros, importar STL, relleno giroide y exportar 3MF/STL a escala.",
+    "pt": "Prepara um modelo para impressão 3D: balanços, paredes, cavidades, folgas, tamanho na mesa, orientação ideal, reparo de furos, importação STL, preenchimento giroide e exportação 3MF/STL em escala."
+   },
+   "reviewed": false,
+   "added_at": "2026-11-01T16:04Z",
+   "updated_at": "2026-11-01T16:04Z"
   },
   {
    "id": "ingefloor",
@@ -1496,6 +2009,34 @@
    "reviewed": false,
    "added_at": "2026-10-27T03:43Z",
    "updated_at": "2026-10-27T03:43Z"
+  },
+  {
+   "id": "station_canopies",
+   "version": "1.0",
+   "author": "Phillip Edwards (Eddy)",
+   "author_url": "https://github.com/eddy-99",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo",
+   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/8bad2952c0fd896232d1f4d2f1803508b2aa19eb/plugins/3D_Eddys/ed3d_station_canopies.py",
+   "sha256": "3ab2d33e50cecf30b14712b222685b5e974f68090399a0cd5012965fbc3f45d4",
+   "ingetrazo": "0.5.11",
+   "tags": [
+    "architecture"
+   ],
+   "screenshot": "station_canopies.webp",
+   "name": {
+    "es": "Marquesinas de estación 3D",
+    "en": "3D Station Canopies",
+    "pt": "Coberturas de estação 3D"
+   },
+   "summary": {
+    "es": "Marquesinas de andén ferroviario (adosadas, de isla y en diente de sierra) sobre columnas de fundición o postes de madera, con lambrequines decorados.",
+    "en": "Railway platform canopies (lean-to, island and ridge and furrow) on cast-iron columns or timber posts, with dagger, rounded or fleur valancing.",
+    "pt": "Coberturas de plataforma ferroviária (encostadas, de ilha e em dente de serra) sobre colunas de ferro fundido ou postes de madeira, com sanefas decoradas."
+   },
+   "reviewed": false,
+   "added_at": "2026-11-01T17:48Z",
+   "updated_at": "2026-11-01T17:48Z"
   },
   {
    "id": "array_tool",
@@ -1913,6 +2454,34 @@
    "updated_at": "2026-10-15T15:47Z"
   },
   {
+   "id": "period_doors",
+   "version": "1.0",
+   "author": "Phillip Edwards (Eddy)",
+   "author_url": "https://github.com/eddy-99",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo",
+   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/v1.0/plugins/period_doors.py",
+   "sha256": "a363d2cd4d3b0c7b6fbadeda97f61630842ef989e56530def4cbc9369fbf4219",
+   "ingetrazo": "0.5.11",
+   "tags": [
+    "architecture"
+   ],
+   "screenshot": "period_doors.webp",
+   "name": {
+    "es": "Puertas de época 3D",
+    "en": "3D Period Doors",
+    "pt": "Portas de época 3D"
+   },
+   "summary": {
+    "es": "Puertas de cuarterones, acristaladas, de tablas, de establo y correderas que se ajustan a la cara elegida, con montantes, escalones, dinteles y claves.",
+    "en": "Panelled, half-glazed, ledged and braced, stable and sliding goods doors that fit the selected face, with fanlights, steps, heads and keystones.",
+    "pt": "Portas almofadadas, envidraçadas, de tábuas, de estábulo e de correr que se ajustam à face escolhida, com bandeiras, degraus, vergas e fechos."
+   },
+   "reviewed": false,
+   "added_at": "2026-11-01T14:54Z",
+   "updated_at": "2026-11-01T14:54Z"
+  },
+  {
    "id": "comfyui_renderer",
    "version": "1.0",
    "author": "seghier",
@@ -2094,6 +2663,35 @@
    "updated_at": "2026-10-11T14:25Z"
   },
   {
+   "id": "wood_planking",
+   "version": "1.0",
+   "author": "Phillip Edwards (Eddy)",
+   "author_url": "https://github.com/eddy-99",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo",
+   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/v1.0/plugins/wood_planking.py",
+   "sha256": "f425fa22ee5961fa7dc0dbc2db011981488485378574c472befc7bf4487e84dd",
+   "ingetrazo": "0.5.11",
+   "tags": [
+    "architecture",
+    "fabrication"
+   ],
+   "screenshot": "wood_planking.webp",
+   "name": {
+    "es": "Tablas de madera 3D",
+    "en": "3D Wood Planking",
+    "pt": "Tábuas de madeira 3D"
+   },
+   "summary": {
+    "es": "Cubre una cara con tablas: lisas, machihembradas, solapadas, de tingladillo, con tapajuntas o troncos, con remates y efectos de abandono (podridas, agujeros, torcidas).",
+    "en": "Covers a face with timber boards: plain, V-jointed, shiplap, weatherboard, board and batten or logs, with trims and derelict effects (rot, holes, missing, skewed).",
+    "pt": "Cobre uma face com tábuas: lisas, macho-fêmea, sobrepostas, com mata-juntas ou troncos, com remates e efeitos de abandono (podres, furos, tortas)."
+   },
+   "reviewed": false,
+   "added_at": "2026-11-01T14:54Z",
+   "updated_at": "2026-11-01T14:54Z"
+  },
+  {
    "id": "roof_tile_tool",
    "version": "1.2.1",
    "author": "Pesi (pesi3d.de)",
@@ -2120,6 +2718,35 @@
    "reviewed": false,
    "added_at": "2026-10-08T22:33Z",
    "updated_at": "2026-10-15T14:57Z"
+  },
+  {
+   "id": "roof_tiles",
+   "version": "1.1",
+   "author": "Phillip Edwards (Eddy)",
+   "author_url": "https://github.com/eddy-99",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo",
+   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/8bad2952c0fd896232d1f4d2f1803508b2aa19eb/plugins/3D_Eddys/ed3d_roof_tiles.py",
+   "sha256": "2f358ab7adfba0c5073b08117ceba97930d5bb387a26f242fbc1d8b4e751bf66",
+   "ingetrazo": "0.5.11",
+   "tags": [
+    "architecture",
+    "fabrication"
+   ],
+   "screenshot": "roof_tiles.webp",
+   "name": {
+    "es": "Tejas 3D",
+    "en": "3D Roof Tiles",
+    "pt": "Telhas 3D"
+   },
+   "summary": {
+    "es": "Cubre un faldón con tejas planas, pizarras o tejas con forma, solapadas o planas para imprimir, con cumbrera y remates. Cada faldón en su propio grupo.",
+    "en": "Covers a roof face with plain tiles, slates, shaped or profiled tiles, overlapping or flat for printing, with ridge tiles and finials. Each slope in its own group.",
+    "pt": "Cobre uma água do telhado com telhas planas, ardósias ou telhas perfiladas, sobrepostas ou planas para impressão, com cumeeira e remates."
+   },
+   "reviewed": false,
+   "added_at": "2026-11-01T14:54Z",
+   "updated_at": "2026-11-01T17:28Z"
   },
   {
    "id": "terraroad",
@@ -2178,6 +2805,34 @@
    "updated_at": "2026-10-19T17:28Z"
   },
   {
+   "id": "igz_toolkeeper",
+   "version": "1.0.0",
+   "author": "Pedro Eugenio Pagán",
+   "author_url": "https://github.com/PedroE200",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/PedroE200/ingetrazo-toolkeeper",
+   "download": "https://github.com/PedroE200/ingetrazo-toolkeeper/releases/download/v1.0.0/Toolkeeper.zip",
+   "sha256": "5ec185fe84036b3a53e81cdf2d9d560519ca9ff5d0e7a9b7a101dc93149e8790",
+   "ingetrazo": "0.5.8",
+   "tags": [
+    "productivity"
+   ],
+   "screenshot": "igz_toolkeeper.png",
+   "name": {
+    "es": "Toolkeeper",
+    "en": "Toolkeeper",
+    "pt": "Toolkeeper"
+   },
+   "summary": {
+    "es": "Gestor de barras de herramientas: barras personalizadas arrastrando iconos, comandos personales (carpetas, webs, scripts), lista y edición de atajos, copias de seguridad e importar/exportar la configuración.",
+    "en": "Toolbar manager: custom toolbars built by dragging icons, personal commands (folders, links, scripts), a list and editor of all shortcuts, backups and import/export of the setup.",
+    "pt": "Gerenciador de barras de ferramentas: barras personalizadas arrastando ícones, comandos pessoais (pastas, links, scripts), lista e edição de atalhos, backups e importar/exportar a configuração."
+   },
+   "reviewed": false,
+   "added_at": "2026-11-01T16:04Z",
+   "updated_at": "2026-11-01T16:04Z"
+  },
+  {
    "id": "topology_tool",
    "version": "1.2.2",
    "author": "Pesi (pesi3d.de)",
@@ -2208,6 +2863,33 @@
    "updated_at": "2026-10-27T03:43Z"
   },
   {
+   "id": "loft",
+   "version": "1.0",
+   "author": "Phillip Edwards (Eddy)",
+   "author_url": "https://github.com/eddy-99",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo",
+   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/8bad2952c0fd896232d1f4d2f1803508b2aa19eb/plugins/3D_Eddys/ed3d_loft.py",
+   "sha256": "e08dbf1a9c10b78490c347c45af559fe7e97a46188093199105af21266c1e42d",
+   "ingetrazo": "0.5.11",
+   "tags": [
+    "drawing"
+   ],
+   "name": {
+    "es": "Transición 3D",
+    "en": "3D Loft",
+    "pt": "Transição 3D"
+   },
+   "summary": {
+    "es": "Crea un sólido entre dos o más perfiles, por ejemplo de un cuadrado a un círculo.",
+    "en": "Makes a solid between two or more profile faces, such as a square into a circle.",
+    "pt": "Cria um sólido entre dois ou mais perfis, por exemplo de um quadrado para um círculo."
+   },
+   "reviewed": false,
+   "added_at": "2026-11-01T17:46Z",
+   "updated_at": "2026-11-01T17:46Z"
+  },
+  {
    "id": "trim_fillet",
    "version": "1.0.0",
    "author": "Aymen Alhaddad",
@@ -2234,6 +2916,34 @@
    "reviewed": false,
    "added_at": "2026-10-26T05:39Z",
    "updated_at": "2026-10-26T05:39Z"
+  },
+  {
+   "id": "soil_waste_pipes",
+   "version": "1.0",
+   "author": "Phillip Edwards (Eddy)",
+   "author_url": "https://github.com/eddy-99",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo",
+   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/v1.0/plugins/soil_waste_pipes.py",
+   "sha256": "5087d932aa3aa6d42ee61cc57b5ab0825ec928e8924474f7dab86a050e543e63",
+   "ingetrazo": "0.5.11",
+   "tags": [
+    "architecture"
+   ],
+   "screenshot": "soil_waste_pipes.webp",
+   "name": {
+    "es": "Tuberías de desagüe 3D",
+    "en": "3D Soil & Waste Pipes",
+    "pt": "Tubos de esgoto 3D"
+   },
+   "summary": {
+    "es": "Bajantes de saneamiento y tuberías de desagüe exteriores con piezas que encajan entre sí, con preajustes.",
+    "en": "Soil stacks and outside waste pipes with fittings that join onto each other, with presets.",
+    "pt": "Tubos de queda de esgoto e tubos de descarga exteriores com acessórios que encaixam entre si, com predefinições."
+   },
+   "reviewed": false,
+   "added_at": "2026-11-01T14:54Z",
+   "updated_at": "2026-11-01T14:54Z"
   },
   {
    "id": "ui_colores_space",
@@ -2292,12 +3002,12 @@
   },
   {
    "id": "v_menu",
-   "version": "0.1",
+   "version": "0.2",
    "author": "priit123",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/priit123/ingetrazo-v-menu",
-   "download": "https://github.com/priit123/ingetrazo-v-menu/archive/refs/tags/0.1.zip",
-   "sha256": "11fec3c7e199637f1842d93e5c06d3c3a022fb4decbf7cf89e55d82b69e2cbc5",
+   "download": "https://github.com/priit123/ingetrazo-v-menu/releases/download/0.2/ingetrazo-v-menu-0.2.zip",
+   "sha256": "048870e82c1366f43712eb54a47828b0c9b91dbb64837e0866c0fc3f4ede31f1",
    "ingetrazo": "0.5.11",
    "tags": [
     "productivity"
@@ -2314,7 +3024,63 @@
    },
    "reviewed": false,
    "added_at": "2026-10-02T14:40Z",
-   "updated_at": "2026-10-29T20:54Z"
+   "updated_at": "2026-11-01T16:05Z"
+  },
+  {
+   "id": "fences_gates",
+   "version": "1.1",
+   "author": "Phillip Edwards (Eddy)",
+   "author_url": "https://github.com/eddy-99",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo",
+   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/8bad2952c0fd896232d1f4d2f1803508b2aa19eb/plugins/3D_Eddys/ed3d_fences_gates.py",
+   "sha256": "a943238a94c0b2f61032bccf9d8d92261a2320fa2b1af8ca9b44d86a936412c7",
+   "ingetrazo": "0.5.11",
+   "tags": [
+    "architecture"
+   ],
+   "screenshot": "fences_gates.webp",
+   "name": {
+    "es": "Vallas y puertas 3D",
+    "en": "3D Fences & Gates",
+    "pt": "Cercas e portões 3D"
+   },
+   "summary": {
+    "es": "Vallas de estacas, de tablas, de paneles, de postes y travesaños, de alambre, de acero y rejas sobre murete, con puertas y envejecido.",
+    "en": "Picket, close-boarded, panel, post and rail, post and wire, steel palisade and iron railings on a dwarf wall, with gates and weathering.",
+    "pt": "Cercas de estacas, de tábuas, de painéis, de postes e travessas, de arame, de aço e gradeamentos sobre muro, com portões e envelhecimento."
+   },
+   "reviewed": false,
+   "added_at": "2026-11-01T14:54Z",
+   "updated_at": "2026-11-01T17:27Z"
+  },
+  {
+   "id": "period_windows",
+   "version": "1.1",
+   "author": "Phillip Edwards (Eddy)",
+   "author_url": "https://github.com/eddy-99",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo",
+   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/8bad2952c0fd896232d1f4d2f1803508b2aa19eb/plugins/3D_Eddys/ed3d_period_windows.py",
+   "sha256": "f2c8dd5bca6dd4bd865f9a8875629cd077fbb3ecd45ec6b09d8de59859f4c973",
+   "ingetrazo": "0.5.11",
+   "tags": [
+    "architecture"
+   ],
+   "screenshot": "period_windows.webp",
+   "name": {
+    "es": "Ventanas de época 3D",
+    "en": "3D Period Windows",
+    "pt": "Janelas de época 3D"
+   },
+   "summary": {
+    "es": "Ventanas de guillotina, abatibles e industriales que se ajustan a la cara elegida, con arcos, cristales, alféizares, dinteles y claves.",
+    "en": "Sash, casement and industrial windows that fit the selected face, with round tops, panes, sills, heads and keystones.",
+    "pt": "Janelas de guilhotina, de batente e industriais que se ajustam à face escolhida, com arcos, vidros, peitoris, vergas e fechos."
+   },
+   "reviewed": false,
+   "added_at": "2026-11-01T14:54Z",
+   "updated_at": "2026-11-01T17:27Z"
   },
   {
    "id": "standalone_3d_html_viewer",
