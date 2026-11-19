@@ -1,0 +1,21 @@
+id = "blackfox_skp_exporter"
+version = "1.0.0"
+author = "David Mavrov"
+author_url = "https://github.com/davidsmavrov-debug"
+license = "GPL-3.0-only"
+repository = "https://github.com/davidsmavrov-debug/BlackFox-CAD/tree/main/IngeTrazo%20Extensions/SKP%20Exporter"
+download = "https://raw.githubusercontent.com/davidsmavrov-debug/BlackFox-CAD/d19567dd8873c49b1a35946f7074defc33910b70/IngeTrazo%20Extensions/SKP%20Exporter/BlackFox_SKP_EXPORTER_1.0.0.py"
+sha256 = "af223963ec3b2ad570c49dd2b61343ba0645738013e7c7e680aead95396f6b85"
+ingetrazo = "0.6.2.1"
+tags = ["import-export", "architecture", "bim"]
+screenshot = "blackfox_skp_exporter.webp"
+
+[name]
+en = "BlackFox SKP Exporter"
+es = "BlackFox SKP Exporter"
+pt = "BlackFox SKP Exporter"
+
+[summary]
+en = "Open, import, and export SketchUp SKP models. Downloads the matching converter with your permission when you first use an SKP command."
+es = "Abre, importa y exporta modelos SKP de SketchUp. Descarga el conversor con tu permiso al usar por primera vez un comando SKP."
+pt = "Abra, importe e exporte modelos SKP do SketchUp. Baixa o conversor com sua autorização no primeiro uso de um comando SKP."
