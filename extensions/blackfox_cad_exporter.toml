@@ -1,5 +1,5 @@
 id = "blackfox_cad_exporter"
-version = "1.0.1"
+version = "1.0.2"
 author = "David Mavrov"
 author_url = "https://github.com/davidsmavrov-debug"
 
@@ -7,11 +7,11 @@ license = "GPL-3.0-or-later"
 
 repository = "https://github.com/davidsmavrov-debug/BlackFox-CAD"
 
-download = "https://raw.githubusercontent.com/davidsmavrov-debug/BlackFox-CAD/exporter-v1.0.1/IngeTrazo%20Extensions/3D%20DXF%20Exporter/BlackFox_CAD_Exporter_v1_0_1.py"
+download = "https://raw.githubusercontent.com/davidsmavrov-debug/BlackFox-CAD/exporter-v1.0.2/IngeTrazo%20Extensions/3D%20DXF%20Exporter/BlackFox_CAD_Exporter_v1_0_2.py"
 
-sha256 = "4e9546424fd5ab6c3bcbe78bcaffd0f1c275657d4b35ee05c616874d9aca005b"
+sha256 = "27f453e3c244bbd510e4e1f1d08d2dc33aa8401cd93faea4000f87c7d904d948"
 
-ingetrazo = "0.5.11"
+ingetrazo = "0.6.3"
 
 tags = ["import-export", "architecture", "structures"]
 screenshot = "blackfox_cad_exporter.webp"
@@ -22,6 +22,6 @@ es = "BlackFox CAD Exporter"
 pt = "BlackFox CAD Exporter"
 
 [summary]
-en = "Export 3D geometry from IngeTrazo to DXF or DWG, preserving supported layers, groups, and components. DWG conversion uses a small Rust converter downloaded with your consent."
-es = "Exporta geometría 3D de IngeTrazo a DXF o DWG, conservando capas, grupos y componentes compatibles. El conversor DWG se descarga con tu permiso."
-pt = "Exporta geometria 3D do IngeTrazo para DXF ou DWG, preservando camadas, grupos e componentes compatíveis. O conversor DWG é baixado com sua autorização."
+en = "Open and import DXF, DWG and mesh files, and export 3D geometry to DXF or DWG. The native converter downloads with your consent."
+es = "Abre e importa archivos DXF, DWG y de malla, y exporta geometría 3D a DXF o DWG. El conversor nativo se descarga con tu permiso."
+pt = "Abre e importa arquivos DXF, DWG e de malha e exporta geometria 3D para DXF ou DWG. O conversor nativo é baixado com sua autorização."
